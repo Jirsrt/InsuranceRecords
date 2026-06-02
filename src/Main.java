@@ -18,7 +18,7 @@
 
 
 public class Main {
-    //insurance, person, komunikace s uzivatelem.
+    //insurance, person, Records, Communication
 
 }
 

@@ -101,6 +101,6 @@ public class Person {
     @Override
     public String toString()
     {
-        return String.format("%s %t%t %s %t%t %d %t%t %s", name, surname, age, phoneNumber);
+        return String.format("%s %t%t %s %t%t %d %t%t %s%n", name, surname, age, phoneNumber);
     }
 }
