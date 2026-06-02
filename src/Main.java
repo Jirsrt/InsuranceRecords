@@ -17,8 +17,11 @@
  */
 
 
-public class Main {
-    //insurance, person, Records, Communication
 
+public class Main {
+    public static void main(String[] args)
+    {
+        //Insurance, Person, Records, Communication
+    }
 }
 
