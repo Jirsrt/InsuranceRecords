@@ -1,2 +1,2 @@
 # InsuranceRecords
-Konzolová aplikace pro evidenci pojistných událostí.
+Console application for recording insurance claims.
