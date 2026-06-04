@@ -1,3 +1,8 @@
+/**
+ * Class Person represents a person in database of records. It contains name, surname, phone number and age of the person.
+ * It also contains methods to get and set these attributes.
+ */
+
 public class Person {
 
     private String name;

@@ -22,6 +22,9 @@ public class Main {
     public static void main(String[] args)
     {
         //Insurance, Person, Records, Communication
+        Communication communication =   new Communication();
+        communication.menu();
+        System.out .println("Program ended. have a nice day!");
     }
 }
 
