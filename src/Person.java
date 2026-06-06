@@ -11,6 +11,7 @@ public class Person {
     private int age;
 
     /**
+     * Constructor for creating object Person
      * @param name name of the person in database of records
      * @param surname surname of the person in database of records
      * @param phoneNumber phone number of the person in database of records

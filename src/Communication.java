@@ -19,7 +19,9 @@ public class Communication {
          *  menuChoice - It will be used to determine which action the user wants to perform.
          */
     private int menuChoice = 1;
-
+    /**
+     * Constructor for creating object Communication
+     */
     public Communication()
     {
 
@@ -49,6 +51,7 @@ public class Communication {
                 this.viewList();
                 break;
             case 3: //find person
+                this.findPerson();
                 break;
             case 4: //exit the program
                 break;
@@ -107,6 +110,19 @@ public class Communication {
         records.viewRecords();
     }
 
-    //find person method
+    /** This method will be used to find a person in the Insurance database.
+     * It will ask the user for the person's name and surname and then search the database for a person with that name and surname.
+     * If a person is found, it will display the    person's name, surname, phone number and age.
+     * If no person is found, it will display a message to the user.
+     */
+    private void findPerson()
+    {
+        System.out  .println("Enter the person's name:");
+        String name = scanner.nextLine();
+
+        System.out.println("Enter the person's surname:");
+        String surname = scanner.nextLine();
+        records.findRecord(name, surname);
+    }
 
 }
