@@ -38,8 +38,8 @@ public class Communication {
         System.out.println("Choose your action:");
         System.out.println("1 - Add a new person to the Insurance database");
         System.out.println("2 - View all people in the Insurance database");
-        System.out.println("2 - Find person in the Insurance database");
-        System.out.println("3 - Exit the program");
+        System.out.println("3 - Find person in the Insurance database");
+        System.out.println("4 - Exit the program");
         input = scanner.nextLine();
         menuChoice = Integer.parseInt(input);
 
@@ -71,24 +71,24 @@ public class Communication {
         // add method for adding a person
         String name = "",surname = "", phoneNumber = "", age = "";
         System.out  .println("Enter the person's name:");
-        if(scanner.nextLine() == "")
-            menuCall();
         name = scanner.nextLine();
+        if(name == "")
+            menuCall();
 
         System.out.println("Enter the person's surname:");
-        if(scanner.nextLine() == "")
-            menuCall();
         surname = scanner.nextLine();
+        if(surname == "")
+            menuCall();
 
         System.out.println("Enter the person's phone number:");
-        if(scanner.nextLine() == "")
-            menuCall();
         phoneNumber = scanner.nextLine();
+        if(phoneNumber == "")
+            menuCall();
 
         System.out.println("Enter the person's age:");
-        if(scanner.nextLine() == "")
-            menuCall();
         age = scanner.nextLine();
+        if(age == "")
+            menuCall();
 
         Person person = new Person(name, surname, phoneNumber, Integer.parseInt(age));
         records.addRecord(person);

@@ -33,7 +33,7 @@ public class Records {
      */
     public void viewRecords()
     {
-        System.out.printf("NAME %t%t SURNAME %t%t AGE %t%t PHONE NUMBER %n");
+        System.out.printf("NAME\t\tSURNAME\t\tAGE\t\tPHONE NUMBER %n");
         for(Person person : records )
         {
             System.out.println(person);

@@ -68,7 +68,6 @@ public class Person {
     /**
      *
      * @param phoneNumber set phone number of the person in database of records
-     *
      * phone number must be in the format 9 digits. It can start with +420 or 00420, but it is not required.
      * If the phone number is not in the correct format, person will not be added to the database
      */
@@ -107,6 +106,6 @@ public class Person {
     @Override
     public String toString()
     {
-        return String.format("%s %t%t %s %t%t %d %t%t %s%n", name, surname, age, phoneNumber);
+        return String.format("%s\t\t%s\t\t%d\t\t%s", name, surname, age, phoneNumber);
     }
 }
