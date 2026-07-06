@@ -19,6 +19,16 @@ public class Communication {
          *  menuChoice - It will be used to determine which action the user wants to perform.
          */
     private int menuChoice = 1;
+
+    /**
+     *  This method will create a new Communication object and return it.
+     *  It will be used to create a new Communication object in the main method.
+     * @return Communication object
+     */
+    public static Communication createCommunication(){
+        return new Communication();
+    }
+
     /**
      * Constructor for creating object Communication
      */
